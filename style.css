@@ -62,10 +62,16 @@ body{
 #msg{
     color: #ffffc7;
     font-size: 40px ;
+    font-weight: bold;
 }
 
 .msg-container{
-    height: 190px;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .hide{
